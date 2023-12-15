@@ -1,0 +1,9 @@
+POST http://localhost:4000/login
+Content-Type:application/json
+
+{
+    "username":"jonas",
+    "password":"abc"
+}
+###
+GET http://localhost:4000/
